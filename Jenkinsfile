@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'system-hpuft-02-at'
-    }
-
-  }
+  agent none
   stages {
     stage('test') {
       steps {
